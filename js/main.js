@@ -13,7 +13,9 @@ function Reset(){
 }
 
 function Minus(){
-    number--;
+    if(number>1){
+        number--; 
+    }
     document.getElementById("text").innerHTML =number;
 }
 
