@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+#Task1{
+    text-align: center;
+    height: 70vh;
+    background-color: cornflowerblue;
+    h1{
+        display: inline-block;
+        margin-top: 200px;
+        font-size: 50px;
+        border: 5px solid rgb(72, 136, 162);
+        border-radius: 10px;
+        color: rgb(240, 255, 255);
+    }
+
+    button{
+        padding: 10px 30px;
+        font-size: 20px;
+        border-radius: 10px;
+        border:none;
+        background-color: rgb(72, 137, 162);
+        color: azure;
+    }
+}
+
+#Task2{
+    text-align: center;
+    height: 50vh;
+    background-color: blueviolet;
+    form{
+        margin-top: 100px;
+        
+        input{
+            color: rgb(255, 255, 255);
+            padding: 10px 40px 10px 10px;
+            border: none;
+            background-color:darkturquoise; 
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        select{
+            padding: 10px;
+            color: rgb(255, 255, 255);
+            background-color: darkturquoise;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+        }
+    }
+    button{
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        padding: 10px 30px;
+        font-size: 20px;
+        background-color: darkturquoise;
+        border-radius: 10px;
+        border: none;
+    }
+
+    h1{
+        margin: 20px 0;
+        color: azure;
+    }
+    
+}
+
+#Task3{
+    
+}

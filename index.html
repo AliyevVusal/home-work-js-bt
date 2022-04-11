@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section id="Task1">
+        <h1>Eded:<span id="text">0</span></h1>
+        <br>
+        <br>
+        <button onclick="Plus()">+</button>
+
+        <button onclick="Reset()">Reset</button>
+    
+        <button onclick="Minus()">-</button>
+    </section>
+
+
+    <section id="Task2">
+    <form action="">
+        <input placeholder="Istediyiniz Miqdari Yazin" value="" id="input" type="text">
+         
+        <select name="Ay" id="ay">
+             <option value="36">36</option>
+             <option value="24">24</option>
+             <option value="12">12</option>
+             <option value="6">6</option>
+             <option value="3">3</option>
+         </select>
+    
+         <select name="Faiz" id="faiz">
+             <option value="40">40</option>
+             <option value="30">30</option>
+             <option value="20">20</option>
+             <option value="10">10</option> 
+         </select>
+    </form>
+
+     <button onclick="hesabla()" >Hesabla</button>
+
+     <br>
+     <br>
+     <br>
+
+     <h1>Ayliq Faiz Miqdari: <span id="afm"></span></h1>
+     <h1>Ayliq Odenen Mebleg: <span id="aom"></span></h1>
+     <h1>Cemi Mebleg:<span id="cm"></span></h1>
+    </section>
+
+
+    <!-- <section id="Task3">
+        <div class="timer">
+            <div class="time">
+                <h1>Seconds:<span id="seconds">0</span></h1>
+                <h1>minutes:<span id="minutes">0</span></h1>
+            </div>
+            <div class="button">
+                <button onclick="Start">Start</button>
+                <button onclick="Stop">Stop</button>
+            </div>
+        </div>
+    </section> -->
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
